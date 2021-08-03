@@ -66,8 +66,8 @@
     else :
       f[n] = fibonacci(n-1) + fibonacci(n-2)
       return f[n]
-  </code>
-  </pre>
+   </code>
+   </pre>
   
   ##### 접근 방법
     1. 모든 답을 만들어보고 그 중 최적해의 점수를 반환하는 완전 탐색 알고리즘을 설계한다.
