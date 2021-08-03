@@ -49,9 +49,7 @@
     else :
       return fibonacci(n-1) + fibonacci(n-2)
   </code>
-  </pre>
-  
-  <pre>
+
   <code>
   # bottom-up
   # 실행 시간 : O(n)
