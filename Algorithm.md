@@ -16,7 +16,8 @@
   - tree / binary tree
   - heap
   - graph
-
+</br>
+</br>
 
 #문제 해결을 위한 전략적 접근
 ----------------------------
@@ -37,17 +38,17 @@
   
   예시 ) Fibonacci 수열
   <pre>
-    <code>
-      # top-down
-      f (int n) {
-        if n==0 : return 0
-        elif n==1 : return 1
+  <code>
+    # top-down
+    f (int n) {
+      if n==0 : return 0
+      elif n==1 : return 1
         
-        if dp[n] has value : return dp[n]
-        else : dp[n] = f(n-2) + f(n-1)
-              return dp[n]
-      }
-    </code>
+      if dp[n] has value : return dp[n]
+      else : dp[n] = f(n-2) + f(n-1)
+            return dp[n]
+    }
+  </code>
   </pre>
   
   
